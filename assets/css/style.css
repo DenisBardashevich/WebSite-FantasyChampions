@@ -112,7 +112,7 @@ img {
   color: white;
   text-align: center;
   padding: 0 2rem;
-  background: url('assets/img/main2.jpg') no-repeat center center/cover;
+  background: url('../img/main2.jpg') no-repeat center center/cover;
 }
 
 
@@ -1190,7 +1190,7 @@ form button:hover {
 }
 
 .hero-about{
-  background: url('assets/img/about11.jpg') no-repeat center center/cover;
+  background: url('../img/about11.jpg') no-repeat center center/cover;
 
 
 }
