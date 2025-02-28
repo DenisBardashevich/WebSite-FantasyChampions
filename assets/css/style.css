@@ -112,7 +112,7 @@ img {
   color: white;
   text-align: center;
   padding: 0 2rem;
-  background: url('/assets/img/main2.jpg') no-repeat center center/cover;
+  background: url('assets/img/main2.jpg') no-repeat center center/cover;
 }
 
 
@@ -1111,9 +1111,10 @@ form button:hover {
 
 .step-image, .responsive-image {
   width: 100%;
-  height: auto;
+  height: 450px;
   border-radius: 8px;
   margin-bottom: 15px;
+  object-fit: cover;
 }
 .step-image{
   height: 250px;
@@ -1189,7 +1190,7 @@ form button:hover {
 }
 
 .hero-about{
-  background: url('/assets/img/about11.jpg') no-repeat center center/cover;
+  background: url('assets/img/about11.jpg') no-repeat center center/cover;
 
 
 }
@@ -1199,10 +1200,7 @@ form button:hover {
   display: flex;
 }
 
-/* Скрыть меню по умолчанию на мобильных устройствах */
-#mobileMenu {
-  /* display: none; */
-}
+
 
 /* При добавлении класса 'active', показываем меню */
 #mobileMenu.active {
